@@ -1,0 +1,98 @@
+
+button.hidden {
+  display: none;
+}
+body {
+  background-image: url("./IMG/3.jpeg");
+  background-size: cover;
+  font-family: 'Rubik', sans-serif;
+}
+
+.user-list .user-block {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+}
+
+.user-info {
+  border: 1px solid #ccc;
+  margin: 20px;
+  padding: 20px;
+  color: #394681;
+}
+
+.user-details-container {
+  text-align: center;
+}
+
+.user-posts-button {
+  display: block;
+  margin: 20px auto;
+  width: 90%;
+  padding: 10px;
+  background-color: #19234d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ul, ol {
+  list-style: none;
+  background-color: rgba(60, 135, 218, 0.53);
+  color: white;
+  border: 2px;
+  border-radius: 5px;
+}
+li {
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  background-color: rgba(60, 135, 218, 0.53);
+  color: white;
+  border: 2px;
+  border-radius: 5px;
+}
+
+button {
+  display: block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #19234d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#users_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.userItem {
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  width: 48%;
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+.post-item {
+  width: 19%;
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+.posts_list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.comments-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.comments-list li {
+  width: 24%;
+}
